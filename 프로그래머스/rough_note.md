@@ -17,11 +17,13 @@ List<String> fruits = Arrays.asList("apple", "banana", "cherry");
 System.out.println(fruits.contains("banana"));  // true  
 System.out.println(fruits.contains("grape"));   // false  
 
-#### set  
+#### set    
 Set<String> fruitSet = new HashSet<>(fruits);  
 System.out.println(fruitSet.contains("banana"));  // true  
-System.out.println(fruitSet.contains("grape"));   // false  
+System.out.println(fruitSet.contains("grape"));   // false
+
 -------------------------------------------------------------------------------------
+
 #### 2. stream
 ##### 1. list, set, array와 같은 컬렉션 데이터를 반복문 없이 간결하게 처리
 ##### 2. for, for-each, while로 복잡하게 반복문을 돌리는 것이 비효율적일 때
@@ -37,8 +39,10 @@ System.out.println(fruitSet.contains("grape"));   // false
 |중간 연산	|sorted()	|정렬|
 |최종 연산	|forEach()|	요소 하나씩 출력|
 |최종 연산	|count()	|개수 세기|
-|최종 연산|	collect()	|리스트, 셋 등으로 다시 수집|
+|최종 연산|collect()	|리스트, 셋 등으로 다시 수집|
 
 #### 3. filter
 조건에 맞는 요소만 걸러냄
 filter(조건식) 형식 
+
+
