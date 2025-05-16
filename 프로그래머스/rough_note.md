@@ -46,3 +46,25 @@ System.out.println(fruitSet.contains("grape"));   // false
 filter(조건식) 형식 
 
 
+
+### 삼항연산자
+#### 조건식 ? 참일 때 값 : 거짓일 때 값;  
+int a = 10;  
+int b = 20;  
+  
+int max = (a > b) ? a : b;  
+👉 a > b가 true면 max = a,  
+👉 false면 max = b    
+  
+즉, max는 20.  
+
+#### if 문과 비교
+int result;  
+if (score >= 60) {  
+    result = 1;  
+} else {  
+    result = 0;  
+}  
+----------------
+int result = (score >= 60) ? 1 : 0;
+
