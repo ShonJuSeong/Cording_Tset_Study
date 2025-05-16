@@ -58,13 +58,15 @@ int max = (a > b) ? a : b;
   
 즉, max는 20.  
 
-#### if 문과 비교
+#### if 문과 비교  
+-------------
 int result;  
 if (score >= 60) {  
     result = 1;  
 } else {  
     result = 0;  
 }  
+
 ----------------
 int result = (score >= 60) ? 1 : 0;
 
